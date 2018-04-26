@@ -1,13 +1,13 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name" : "OpenTokRTC Screen Sharing",
-  "author": "TokBox, Inc.",
+  "name" : "Boardroom Screen Sharing",
+  "author": "Software House, Plt.",
   "version" : "1.4",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
   "description" : "This Chrome extension is developed for Tokbox demos. It simply captures the content of your screen.",
-  "homepage_url": "https://opentokdemo.tokbox.com",
+  "homepage_url": "https://boardroom.softwarehouse.company",
   "background": {
     "scripts": ["background-script.js"],
     "persistent": false
@@ -15,7 +15,7 @@
   "content_scripts": [ {
    "js": [ "content-script.js" ],
    "all_frames": true,
-   "matches": ["https://opentokdemo.tokbox.com/*", "https://pse001-iad.herokuapp.com/*"]
+   "matches": ["https://connect.boardroom.work/*", "https://iznd.boardroom.work.herokudns.com/*"]
   }],
   "icons": {
     "16": "logo16.png",

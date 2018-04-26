@@ -2,7 +2,7 @@
 
 var extensionID = chrome.runtime.id;
 
-var prefix = 'com.tokbox.screenSharing.' + extensionID;
+var prefix = 'work.boardroom.screenSharing.' + extensionID;
 
 // this port connects with background script
 var port = chrome.runtime.connect();
