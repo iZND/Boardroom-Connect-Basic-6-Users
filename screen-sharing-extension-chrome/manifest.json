@@ -13,12 +13,12 @@
     "persistent": false
   },
     "externally_connectable": {
-    "matches": ["https://connect.boardroom.work/*", "http://www.boardroom.work/*"]
+    "matches": ["https://enterprise.boardroom.work/*", "http://www.boardroom.work/*"]
   },
   "content_scripts": [ {
    "js": [ "content-script.js" ],
    "all_frames": true,
-   "matches": ["https://connect.boardroom.work/*", "https://boardroom-connect.herokuapp.com/*", "http://www.boardroom.work/*"]
+   "matches": ["https://enterprise.boardroom.work/*", "https://boardroom2.herokuapp.com/*", "http://www.boardroom.work/*"]
   }],
   "icons": {
     "16": "logo16.png",
