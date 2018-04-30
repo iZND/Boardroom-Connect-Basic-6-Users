@@ -150,7 +150,7 @@
       showConfirm(isJoining ? MODAL_TXTS.join : MODAL_TXTS.muteRemotely);
     },
     sessionDisconnected: function(evt) {
-      RoomView.participantsNumber = 0;
+      RoomView.participantsNumber = 6;
       LayoutManager.removeAll();
     },
     controllersReady: function() {
