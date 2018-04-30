@@ -1,7 +1,7 @@
 {
   "name": "BoardroomMain",
   "version": "1.0.0",
-  "description": "Boardroom Basic sample application to show off the WebRTC and platform capabilities ",
+  "description": "Boardroom RTC sample application to show off the OpenTok API and platform capabilities ",
   "main": "server.js",
   "engines": {
     "node": "4.8.x",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https:git@github.com:iZND/Boardroom-WebRTC-Basic.git"
+    "url": "https:git@github.com:iZNDGroup/Boardroom-Web-Multi-Video-Conf--.git"
   },
   "author": "iZND Technology",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "bower": "^1.6.5",
     "cors": "^2.7.1",
     "daemon": "^1.1.0",
-    "ejs": "^2.5.5",
+    "ejs": "^1.0.0",
     "express": "^4.0.0",
     "firebase": "^2.3.1",
     "firebase-token-generator": "^2.0.0",
