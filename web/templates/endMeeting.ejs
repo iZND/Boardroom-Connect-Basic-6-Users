@@ -2,9 +2,9 @@
   <header>
     <img src="/images/opentok-logo.png" alt="Boardroom transparent logo">
     <% if(!isWebRTCVersion) { %>
-    <p>Thank you for using Boardroom</p>
+    <p>Thank you for using Boardroom Connect</p>
     <% } else { %>
-    <p class="bold">Thank you for trying Boardroom</p>
+    <p class="bold">Thank you for using Boardroom Connect </p>
     <% } %>
   </header>
   <% if(!isWebRTCVersion) { %>
@@ -30,7 +30,7 @@
   <footer data-recordings="<%=numArchives%>">
 <% if (sessionId !== 'NOT_AVAILABLE') { %>
     <p> Get more information about the quality of your last meeting using our Inspector tool</p>
-    <p> for more info, contact our sales team at <a href="mailto:sales@izndgroup.com"</p>
+    <p> for more info, contact our sales team at <a href="mailto:sales@izndgroup.com"></p>
 <%} else {%>
     <p> You did not join the meeting, so no information about the quality is available</p>
 <%}%>
